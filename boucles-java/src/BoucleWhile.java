@@ -1,6 +1,4 @@
 
-import com.sun.source.tree.WhileLoopTree;
-
 import java.security.SecureRandom; //Fonction pour generer des nombres aleatoires
 
 public class BoucleWhile {
@@ -16,7 +14,7 @@ public class BoucleWhile {
             "Michel"
     };
 
-    static int customersSize = new SecureRandom().nextInt(10); // Variable pour generer les nombre aleatoires
+    static int customersSize = new SecureRandom().nextInt(8); // Variable pour generer les nombre aleatoires
 
     /**
      * Methode principale qui retourne une methode
@@ -31,13 +29,12 @@ public class BoucleWhile {
      */
     private static void displayCustomer(){
         System.out.println("On a generer " + customersSize + " Clients");
-         int i = 0;
+         int customer = 0;
          while (customersSize > 0 ){
              customersSize--;
+             sayHelloCustomer(customers[customer]);
 
-             sayHelloCustomer(customers[i]);
-
-             i++;
+             customer++;
          }
     }
 

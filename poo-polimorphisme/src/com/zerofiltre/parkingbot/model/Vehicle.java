@@ -3,12 +3,12 @@ package com.zerofiltre.parkingbot.model;
 public class Vehicle {
     private String registrationNumber;
 
-    // Geter
+    // Getters
     public String getRegistrationNumber() {
         return registrationNumber;
     }
 
-    // Seter
+    // Setters
     public void setRegistrationNumber(String registrationNumber) {
         this.registrationNumber = registrationNumber;
     }

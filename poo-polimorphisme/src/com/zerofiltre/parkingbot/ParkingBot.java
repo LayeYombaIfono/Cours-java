@@ -6,7 +6,7 @@ import com.zerofiltre.parkingbot.model.Tickets;
 import com.zerofiltre.parkingbot.model.Vehicle;
 import com.zerofiltre.parkingbot.service.ParkingService;
 
-public class ParkingBoto {
+public class ParkingBot {
 
     static ParkingService parkingService = new ParkingService();
 

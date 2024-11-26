@@ -45,8 +45,8 @@ public class Tickets {
 
     @Override
     public String toString() {
-        return "Le montant du ticket de vehicule est de : " + amount + " $" + '\n' + " Pour la categorie de : " +
-                vehicle.getCategory() +'\n' + "Son heure d'entree est : " + enteringTime +'\n'+
-                " et son heure de sortie est : " + exitTime;
+        return "Le montant du ticket de vehicule est: " + amount + " $" + '\n' + "Categorie : " +
+                vehicle.getCategory() +'\n' + "Heure d'entrée est : " + enteringTime +'\n'+
+                "Heure de sortie est : " + exitTime;
     }
 }

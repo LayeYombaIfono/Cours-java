@@ -114,6 +114,55 @@ public class NotionDeBase {
     }
     
     
+//    Instructions de controle if
+    public static void instructionControleIf(){
+        
+        int nombre1 = 49;
+        int nombre2 = 9;
+        int result = nombre1 / nombre2;
+        
+        if (result % 2 == 0) {
+            System.out.println("Le nombre " +result +" est paire");
+        } else {
+           System.out.println("Le nombre " +result +" est impaire"); 
+        }
+    }
+    
+    
+//    Utilisation de switch comme structure de controle avec la syntaxe classe
+    public static void structureDeControleSwitch(){
+        String feuTricolore = "VERT";
+        
+        
+        switch (feuTricolore) {
+            case "VERT":
+                System.out.println("Passage avec priorite a dorite ");
+                break;
+                
+            case "ORANGE":
+                System.out.println("Stop");
+                break;
+                
+            case "ROUGE":
+                 System.out.println("Interdiction absolue de passer");
+                 break;
+            default:
+                System.err.println("Passage avec priorité à droite");
+        }
+        
+        
+//        Utilisation de switch comme expression avec l'oprateur arrow
+        String autreTricolor = "ROUGE";
+        switch(autreTricolor){
+            case "ROUGE" -> System.out.println("Interdiction absolue de passer");
+            case "ORANGE " -> System.out.println("Stop");
+            case "VERT " -> System.out.println("Passage avec priorite a dorite ");
+            default -> System.err.println("Le tricolor est arreter");
+
+        }
+        
+    }
+    
     
 
     /**
@@ -129,8 +178,15 @@ public class NotionDeBase {
 //         Methode boucle while
         //boucleWhile();
          
-         // Methode boucle for
-         boucleFor();
+//          Methode boucle for
+        // boucleFor();
+        
+//        Methode instruction if
+    //instructionControleIf();
+    
+    
+//    Methode switch
+        structureDeControleSwitch();
        
     }
     

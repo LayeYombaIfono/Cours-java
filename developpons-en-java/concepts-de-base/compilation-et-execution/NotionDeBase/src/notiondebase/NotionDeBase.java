@@ -131,6 +131,7 @@ public class NotionDeBase {
     
 //    Utilisation de switch comme structure de controle avec la syntaxe classe
     public static void structureDeControleSwitch(){
+        
         String feuTricolore = "VERT";
         
         

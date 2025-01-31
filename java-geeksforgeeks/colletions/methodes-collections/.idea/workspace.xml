@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa264410-7dda-4321-805b-300da0a7a06b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../developpons-en-java/notions-threads/cours-threads/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../developpons-en-java/notions-threads/cours-threads/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../developpons-en-java/notions-threads/group-threads/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../developpons-en-java/notions-threads/group-threads/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2sM7llVtk0iGcOqN5mtWo3JPL7u" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -39,7 +37,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "gfg-001",
+    "git-widget-placeholder": "gfg-002",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Ifono/Documents/Cours-java/java-geeksforgeeks/colletions/methodes-collections/src/Main.java"
   }
